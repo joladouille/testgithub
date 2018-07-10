@@ -1,0 +1,12 @@
+digraph Cahier_des_charges_Software {
+  Software -> Intuitif
+  Intuitif -> Gcode_standard
+  Intuitif -> Realisation_tuto_vidéo
+  Software -> Usinage_2D_3D
+  Usinage_2D_3D -> Logiciel_complet
+  Software -> Changement_outil
+  Changement_outil -> Bonne_Vue3D
+  Software -> Reglage_en_amont
+  Reglage_en_amont -> Logiciel_gratuit
+  
+}

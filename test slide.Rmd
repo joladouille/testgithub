@@ -1,0 +1,62 @@
+---
+title: "test"
+author: "moi"
+date: "9 juillet 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+## slide de test c le feu ma geule
+
+woila se truc sa a laire d'etre le feu *#italique* TMTC
+
+**#fat**
+
+$f(x)=\frac{4\pi}{\sqrt{4^2}}$
+
+##graphviz power
+
+```{r}
+library(EBImage)
+
+img = readImage("test.png")
+display(img, method = "raster")
+```
+
+
+
+
+
+
+
+
+
+
+
